@@ -1,0 +1,14 @@
+{
+  "name": "group_files",
+  "module": "group-files.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "scripts": {
+    "build": "bun build --compile --outfile=group_files ./group-files.ts"
+  }
+}
